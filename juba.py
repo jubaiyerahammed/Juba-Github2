@@ -1,8 +1,10 @@
-"""
+
 name=input("Enter your name:")
 age=int(input("Enter your age:"))
 print('Hello',name,'ypu will be',age+1,'next year.')
 
+
+#Even or odd number
 number=int(input("Enter your number:"))
 if number%2==0:
     print("Even")
@@ -10,13 +12,14 @@ else:
     print("Odd")
 
 
+#password
 password=input("Enter your password:")
 if password=="python123":
     print("Access granted")
 else:
     print("Access denied")
 
-
+#while loop
 number=int(input("Enter your number:"))
 while number>=0:
     print(number)
@@ -31,6 +34,9 @@ while True:
         break
 print(total)
 
+
+
+#sum
 sum=0
 while True:
     n=int(input("Enter your number:"))
@@ -39,6 +45,8 @@ while True:
         break
 print(sum)
 
+
+#Guesses Game
 secret=7
 while True:
     guesses=int(input("Enter your guesses:"))
@@ -47,6 +55,8 @@ while True:
     else:
         print("Incorrect")
 
+
+
 num=int(input("Enter your number:"))
 if num>=1:
     print("The number is positive",num)
@@ -54,6 +64,7 @@ elif num==0:
     print("The number is zero")
 else:
     print("The number is negative")
+
 
 
 a='1.Say Hello'
@@ -74,6 +85,7 @@ while True:
         break
 
 
+#largest number
 largest= None
 while True:
     n=int(input("Enter your number:"))
@@ -203,4 +215,4 @@ while True:
         count += 1
 
 print("Positive count:", count)
-"""
+
